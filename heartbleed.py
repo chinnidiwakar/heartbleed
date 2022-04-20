@@ -40,7 +40,7 @@ from optparse import OptionParser
 
 
 
-options = OptionParser(usage='%prog server [options]', description='Test and exploit TLS heartbeat vulnerability aka heartbleed (CVE-2014-0160)')
+options = OptionParser(usage='\n%prog serverip [options]', description='Test and exploit TLS heartbeat vulnerability aka heartbleed (CVE-2014-0160)')
 
 options.add_option('-p', '--port', type='int', default=443, help='TCP port to test (default: 443)')
 
